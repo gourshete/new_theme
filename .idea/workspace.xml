@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eba4427c-47ac-4a0d-95d7-2442bc59b806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mundana-theme-jekyll-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/main-loop-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/menu-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/meta-read-time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/search-lunr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/sidebar-featured.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/tracking-footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/tracking-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/page-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/author-jane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/author-sal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/authors-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/buy-me-a-coffee.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/contact.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/privacy-policy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-18-charm-old-cities.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-18-customer-service.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-19-markup-example.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-20-quick-start-guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-21-is-intelligence-enough.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-22-never-stopped-worrying-never-loved-bomb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-23-options-for-creating-new-site-with-jekyll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-24-powerful-things-markdown-editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-25-press-and-education.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-26-red-riding.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-27-tree-of-codes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-28-we-all-wait-for-summer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-29-about-bundler.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-30-acumulated-experience.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-02-01-education.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-02-02-first-mass-produced.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-02-03-powerful-things-markdown-editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-02-04-welcome-to-jekyll.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/SS-send-email-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/demo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jekyll.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/screenshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/send-email-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/lunr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-02-04-welcome-to-jekyll.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="266">
+                <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1656">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>baseurl</find>
+      <find>images.unsplash.com</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2019-02-04-welcome-to-jekyll.markdown" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba4427c-47ac-4a0d-95d7-2442bc59b806" name="Default Changelist" comment="" />
+      <created>1584383250752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584383250752</updated>
+      <workItem from="1584383252704" duration="3353000" />
+      <workItem from="1584387415623" duration="2187000" />
+      <workItem from="1584389895017" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5565000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08966074" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-01-19-markup-example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-02-03-powerful-things-markdown-editor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-02-01-education.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="400">
+            <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/demo1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/avatar1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/avatar2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-02-04-welcome-to-jekyll.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="266">
+            <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
