@@ -79,13 +79,19 @@ And you are all set to send sign-up emails - right after user is created.
 - Note -
 
 Sending emails from google account may require allowing access to less secure apps. This setting is set to OFF by default
- for security reasons. To turn it ON,  goto https://myaccount.google.com/lesssecureapps and turn ON 'Allow less secure apps'
+ for security reasons. To turn it ON,  goto [https://myaccount.google.com/lesssecureapps] and turn ON 'Allow less secure apps'
 
+![screenshot]({{ site.baseurl }}/assets/images/SS-send-email-2.png)
 
 <br>
 
 **References** 
 
-- Rails ActionMailer - https://guides.rubyonrails.org/action_mailer_basics.html <br>
+- Rails ActionMailer - [https://guides.rubyonrails.org/action_mailer_basics.html] <br>
 
-- Google less secure apps -https://support.google.com/accounts/answer/6010255?hl=en
+- Google less secure apps - [https://support.google.com/accounts/answer/6010255?hl=en]
+
+
+[https://myaccount.google.com/lesssecureapps]: https://myaccount.google.com/lesssecureapps
+[https://guides.rubyonrails.org/action_mailer_basics.html]: https://guides.rubyonrails.org/action_mailer_basics.html
+[https://support.google.com/accounts/answer/6010255?hl=en]: https://support.google.com/accounts/answer/6010255?hl=en
