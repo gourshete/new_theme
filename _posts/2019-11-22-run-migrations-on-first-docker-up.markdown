@@ -2,6 +2,7 @@
 layout: post
 title:  "Run seed data only on first Docker instance up"
 date:   2019-11-22
+categories: [ Rails ]
 keywords: "ruby rails github gryffindor learning swapnil gourshete migration docker kubernetes circleci bash devops"
 ---
 

@@ -6,6 +6,8 @@ comments: true
 keywords: "Request lifecycle. How request passes through each stage. From Browser to Web server to Application server to
 controller's action and back to browser. rails github gryffindor learning request lifecycle http browser webserver application server
 nginx routes controller action rack app"
+image: assets/images/dig.png
+categories: [ Rails ]
 ---
 
 Have you ever wondered how a request is processed in its lifecycle? What happens with request at each stage? 
@@ -37,7 +39,7 @@ Authoritative DNS Server must have IP address for requested site, if not there a
  provider has not set up your domain information properly.
  
  It is actually interesting to try on terminal with dig,
- <img src="{{ '/assets/img/dig.png' | prepend: site.baseurl }}" alt="">
+ <img src="{{ '/assets/images/dig.png' | prepend: site.baseurl }}" alt="">
 
 <p>..</p>
 
@@ -50,7 +52,7 @@ These servers are meant to talk only in http. Their job is to understand the req
  
 For simpler request, we can configure web server easily. Suppose we need to tell web server that if browser asks for any 
 assets then serve it from '/public/assets' folder. There are a list of different web servers you can use for this purpose.
- With nginx it is like <script src="https://gist.github.com/SGourshete/8c459576dc82eb38c62deb826e4ae20d.js"></script>
+ With nginx it is like <script src="https://gist.github.com/gourshete/8c459576dc82eb38c62deb826e4ae20d.js"></script>
 
 Okay then. We are set to serve requests for assets. If browser asks for assets it will receive an expected response in output,
 for anything else than assets, it will get 404 not found response.
@@ -79,7 +81,7 @@ It notifies the web framework using a method call, communicates the details as m
 communicates back by return values from the method call.
 
 In code it just looks like
-<script src="https://gist.github.com/SGourshete/0a7a99300868b49c62ac87c895b923bc.js"></script>
+<script src="https://gist.github.com/gourshete/0a7a99300868b49c62ac87c895b923bc.js"></script>
 
 Web server creates env hash to pass it to Rack's call method. This env hash has information like http_verb, 
  http_method, parameters, rack_app_version, etc.
@@ -89,7 +91,7 @@ successfully or whatever happened with it. Headers is a hash of http headers, an
 
 
 Coming to rails, the config.ru file will look something like 
-<script src="https://gist.github.com/SGourshete/e424bec8a866824af57377bfff2d4807.js"></script>
+<script src="https://gist.github.com/gourshete/e424bec8a866824af57377bfff2d4807.js"></script>
 
 It is supposed to pass Rack application to run keyword, this means Rails.application is a Rack app and must respond to call method.
 
@@ -101,10 +103,10 @@ Finally request reaches our app. It is evaluated by again a Rack app generated b
 too muck Rack apps around. But Rails is always been that.
 
 config/routes.rb - 
-<script src="https://gist.github.com/SGourshete/2492f1ff1731060f206701583f279c5b.js"></script>
+<script src="https://gist.github.com/gourshete/2492f1ff1731060f206701583f279c5b.js"></script>
 
 This will ultimately generate these seven routes
-<script src="https://gist.github.com/SGourshete/6909e997f7d11ed2b9ddb4b046d50c58.js"></script>
+<script src="https://gist.github.com/gourshete/6909e997f7d11ed2b9ddb4b046d50c58.js"></script>
 
 From here, most of us know how it works. 
 

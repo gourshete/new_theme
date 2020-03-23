@@ -3,6 +3,8 @@ layout: post
 title:  "Modify a gem and use it in Rails"
 date:   2019-06-28
 keywords: "Edit a gem and use in development environment. Gem github edit rails development build gryffindor learning"
+image: assets/images/kid_opening_gem.jpg
+categories: [ Rails ]
 ---
 
 Sometimes a situation arises where we need to modify a gem according to our requirement and then 

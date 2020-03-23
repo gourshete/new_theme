@@ -3,6 +3,8 @@ layout: post
 title:  "Sending Email in Rails"
 date:   2020-03-06
 keywords: "ruby rails github gryffindor learning swapnil gourshete ruby on rails sidekiq background-jobs async"
+image: assets/images/send-email-1.jpg
+categories: [ Rails ]
 ---
 
 Sending email is integral part of every web application nowadays. In this post we will cover how to send emails
@@ -34,7 +36,7 @@ Assuming you have a Rails application with User model.
 We will generate a mailer named - 
 rails g mailer UserRegistration <br>
 This will generate 
-<img src="{{ '/assets/img/SS-send-email-1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-send-email-1.png' | prepend: site.baseurl }}" alt="">
 
 3. Open app/mailers/user_registrations_mailer.rb and add method following method 
 ```ruby

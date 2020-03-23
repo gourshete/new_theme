@@ -3,11 +3,13 @@ layout: post
 title:  "APIs in Rails 5.0"
 date:   2018-03-23
 keywords: "API in rails 5. rails github gryffindor learning api"
+image: assets/images/web_api.png
+categories: [ Rails ]
 ---
 
 Have you ever wonder how APIs work in the world of convention over configuration, specifically in Rails 5.0?
 
-<img src="{{ '/assets/img/web_api.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/web_api.png' | prepend: site.baseurl }}" alt="">
 
 Rails keeps continuing its legacy of convention over configuration in APIs also. Before Rails 5, we used to use rails-api to implement APIs. But now rails-api is merged to core Rails. So Rails 5 has in-built support for APIs. That’s great!!!
 

@@ -3,11 +3,13 @@ layout: post
 title:  "How Indexes on database works!"
 date:   2018-06-08
 keywords: "How index on database works? datastructures B-tree rails github gryffindor learning database postgresql index"
+image: assets/images/how_index_works.gif
+categories: [ Rails ]
 ---
 
 When it comes to performance of an application, databases are highly important and effective. And one of the key factor in database optimisation is index. It helps in getting results faster for select and where queries.
 
-<img src="{{ '/assets/img/how_index_works.gif' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/how_index_works.gif' | prepend: site.baseurl }}" alt="">
 
 
 <h4>What is Index ?</h4>
@@ -23,20 +25,19 @@ Hash index operations are not presently WAL-logged, so hash indexes might need t
 
 - Syntax for Creating index
 
-CREATE INDEX index_name ON table_name (column1, column2, ..);
-
-<img src="{{ '/assets/img/blank.jpeg' | prepend: site.baseurl }}" alt="">
-
+    ```ruby
+      CREATE INDEX index_name ON table_name (column1, column2, ..);
+    ```
 
 <h4>How Index works ?</h4>
 
 Suppose we have a users table(id, name) indexed on name. When a record is inserted in users table, respective entry in B-tree would be made. At the moment users table have entries (1, ‘Deepak’), (2, ‘Rohit’), (3, ‘MSD’), (4, ‘Aaradhya’). The indexed B-tree would look like [Aaradhya, Deepak, MSD, Rohit].
 
-<img src="{{ '/assets/img/index_2.jpeg' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/index_2.jpeg' | prepend: site.baseurl }}" alt="">
 
 For instance, I insert a record (5, ‘Swapnil’), B-tree would be updated to [Aaradhya, Deepak, MSD, Rohit] and node Rohit will point to [Rohit, Swapnil]. The searching operation are made easy because the data is sorted. If you are interested in postgresql code, take a look here on how postgresql works. When search query for name Swapnil is fired, unlike sequentially traversing users table as in without indexing, B-tree will efficiently find it is in node Rohit. Note that after locating node, it switches to binary search to reach Swapnil. Here is the source code to search value in single B-tree in postgresql.
 
-<img src="{{ '/assets/img/index_3.jpeg' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/index_3.jpeg' | prepend: site.baseurl }}" alt="">
 
 
 <h4>A take on insert/update with index</h4>
@@ -45,7 +46,7 @@ Insert is the only operation which do not directly benefits from index, as it do
 
 In update query, when record is updated in database, the index for the same also gets updated.
 
-<img src="{{ '/assets/img/blank.jpeg' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/blank.jpeg' | prepend: site.baseurl }}" alt="">
 
 
 <h4>Building indexes concurrently</h4>

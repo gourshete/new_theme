@@ -3,6 +3,8 @@ layout: post
 title:  "String Comparison: StringInquirer"
 date:   2019-07-07
 keywords: "rails github gryffindor learning ruby string comparison eql equal StringInquirer"
+image: assets/images/equality.png
+categories: [ Rails ]
 ---
 
 Generally we use `==/===/eql?/equal?` for string comparison in Rails.

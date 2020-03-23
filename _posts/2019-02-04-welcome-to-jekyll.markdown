@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Send Email from Rails Backend"
-categories: [ Jekyll ]
+categories: [ Rails ]
 image: assets/images/send-email-1.jpg
 ---
 

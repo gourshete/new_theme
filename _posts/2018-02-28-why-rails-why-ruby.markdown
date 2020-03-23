@@ -2,6 +2,8 @@
 layout: post
 title:  "Why Rails? Why Ruby?"
 date:   2018-02-28
+image: assets/images/why.jpg
+categories: [ Rails ]
 keywords: "Web framework. Ruby on Rails has been a prominent framework for web applications for last couple of years. But what has
  made it so worthy? Why Ruby? Convention over configuration. Easy to Learn. Great Community. Compatibility with latest technologies. 
  GitHub, Airbnb, Netflix, Twitter rails github gryffindor learning swapnil gourshete"
@@ -40,7 +42,7 @@ Rails now can be used with any JS library, such as react. It also works with Ang
 
 ...
 
-<img src="{{ '/assets/img/ruby.png' | prepend: site.baseurl }}" alt=""> 
+<img src="{{ '/assets/images/ruby.png' | prepend: site.baseurl }}" alt=""> 
 
 <dl>
   <dt>Notes</dt>

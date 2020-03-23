@@ -2,6 +2,7 @@
 layout: post
 title:  "Useful Rails commands"
 date:   2019-08-05
+categories: [ Rails ]
 keywords: "rails github gryffindor learning swapnil gourshete rails6 ruby swapnil gourshete rails dbconsole rails runner rails notes The app and helper objects"
 description: "There are a few commands that are absolutely critical to your everyday usage of Rails. In the order of how much you'll probably use them are: 
 rails dbconsole rails runner rails notes The app and helper objects"

@@ -3,6 +3,8 @@ layout: post
 title:  "Sidekiq By Example"
 date:   2019-11-28
 keywords: "ruby rails github gryffindor learning swapnil gourshete ruby on rails sidekiq background-jobs async"
+image: assets/images/sidekiq.png
+categories: [ Rails ]
 ---
 
 What is the best way of handling background jobs in Rails, (maybe) using sidekiq.
@@ -23,7 +25,7 @@ Note: The <a href="https://github.com/gourshete/sidekiq-example" target="_blank"
 ### Create new Rails Project
 We will create a new rails project named `sidekiq-example`
 
-<img src="{{ '/assets/img/SS-sidekiq-new-project.png' | prepend: site.baseurl }}" alt=""> 
+<img src="{{ '/assets/images/SS-sidekiq-new-project.png' | prepend: site.baseurl }}" alt=""> 
 
 
 ### Add sidekiq gem
@@ -41,11 +43,11 @@ Now run command `bundle install`. This will install gem sidekiq in our project.
 ### Generate Model
 Let's create a model named `Team` for reference with fields `name`, `rating`
 
-<img src="{{ '/assets/img/SS-sidekiq-model.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-model.png' | prepend: site.baseurl }}" alt="">
 
 Also add this in `seeds.rb`
 
-<img src="{{ '/assets/img/SS-sidekiq-seed.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-seed.png' | prepend: site.baseurl }}" alt="">
 
 Now Run <br>
 `➜  sidekiq-example: rails db:create && rails db:migrate && rails db:seed` <br>
@@ -57,14 +59,14 @@ Running seed data will insert sample 5 records in it.
 ### Generate a controller
 Create a controller for our actions under namespace `api/v1/`
 
-<img src="{{ '/assets/img/SS-sidekiq-controller-1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-controller-1.png' | prepend: site.baseurl }}" alt="">
 
 <br>
 
 ### Add routes
 Let's add routes for our actions. Add this in `routes.rb`.
 
-<img src="{{ '/assets/img/SS-sidekiq-routes.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-routes.png' | prepend: site.baseurl }}" alt="">
 
 <br>
 
@@ -76,13 +78,13 @@ asynchronous call to this method `perform`.
 The logic for background job will be in this method `perform`. To keep it simple for now, will just add sleep timer 
 in it.
 
-<img src="{{ '/assets/img/SS-sidekiq-worker.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-worker.png' | prepend: site.baseurl }}" alt="">
 
 It simply sleeps for number of milliseconds passed to it. This job will run asynchronously when called.
 
 Let's modify teams controller to make a call to this background job
 
-<img src="{{ '/assets/img/SS-sidekiq-controller-2.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-controller-2.png' | prepend: site.baseurl }}" alt="">
 
 You can see action `show` is making call to `BuyTimeWorker`. What it means is when a url of kind `'/api/v1/teams/:id'`
 is hit, the controller action `show` will get called and background job `BuyTimeWorker` will be triggered. The action `show`
@@ -100,7 +102,7 @@ If you hit URL will found out something like this in sidekiq server log
 
 `http://localhost:3001/api/v1/teams/2`
 
-<img src="{{ '/assets/img/SS-sidekiq-server-log.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/images/SS-sidekiq-server-log.png' | prepend: site.baseurl }}" alt="">
 
 
 * ):
