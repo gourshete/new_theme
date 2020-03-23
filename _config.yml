@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 disqus: ''
 email: 'learning.swapnil@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -25,6 +25,7 @@ authors:
       bio:            "Hi, I am Swapnil. Software Engineer."
       email:          learning.swapnil@gmail.com
       twitter:        https://twitter.com/gourshete
+      github:         https://github.com/gourshete
 
 # Defaults
 defaults:
