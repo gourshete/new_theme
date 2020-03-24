@@ -8,6 +8,7 @@ controller's action and back to browser. rails github gryffindor learning reques
 nginx routes controller action rack app"
 image: assets/images/dig.png
 categories: [ Rails ]
+tags: 'featured'
 ---
 
 Have you ever wondered how a request is processed in its lifecycle? What happens with request at each stage? 

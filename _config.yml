@@ -1,5 +1,5 @@
 # Site
-name: 'Ruby on Rails'
+name: 'Rails Examples'
 description: 'Exploring Rails'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -19,7 +19,7 @@ plugins:
   
 authors:
     swapnil:
-      name:           Swapnil
+      name:           Swapnil Gourshete
       site:           https://www.gryffindor.in
       avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Swapnil. Software Engineer."

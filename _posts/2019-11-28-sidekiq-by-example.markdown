@@ -5,6 +5,7 @@ date:   2019-11-28
 keywords: "ruby rails github gryffindor learning swapnil gourshete ruby on rails sidekiq background-jobs async"
 image: assets/images/sidekiq.png
 categories: [ Rails ]
+tags: 'featured'
 ---
 
 What is the best way of handling background jobs in Rails, (maybe) using sidekiq.

@@ -5,6 +5,7 @@ date:   2018-06-08
 keywords: "How index on database works? datastructures B-tree rails github gryffindor learning database postgresql index"
 image: assets/images/how_index_works.gif
 categories: [ Rails ]
+tags: 'featured sticky'
 ---
 
 When it comes to performance of an application, databases are highly important and effective. And one of the key factor in database optimisation is index. It helps in getting results faster for select and where queries.
