@@ -33,7 +33,7 @@ updated.
 Now the value of id_sequence is `3`, at the same time record with id **3** is present(from imported records). In this case, 
 database insert operation will fail with error `duplicate primary key - validation failure`.
 
-- How to resolve?
+- How to reset?
 
 Open database console and run 
 
@@ -41,13 +41,13 @@ Open database console and run
 SELECT setval('your_table_id_seq', COALESCE((SELECT MAX(id)+1 FROM your_table), 1), false);
 ```
 
-- How to resolve from Rails console?
+- How to reset from Rails console?
 
 ```ruby
   ActiveRecord::Base.connection.reset_pk_sequence!('table_name')
 ```
 
-- How to achieve for all tables?
+- How to reset for all tables?
 
 ```ruby
 ActiveRecord::Base.connection.tables.each do |t|
