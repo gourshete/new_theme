@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby Ranges"
+title:  "Ruby Ranges Overview"
 date:   2019-08-15
 categories: [ Rails ]
 keywords: "ruby rails github gryffindor learning swapnil gourshete ranges sequence Range in ruby can be used in following situations
